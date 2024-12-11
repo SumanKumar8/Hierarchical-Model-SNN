@@ -24,7 +24,7 @@ def flush_aer(aer,pad_samples=10,all_dump=True):
 
 transform = transforms.Compose([
                 transforms.ToTensor(),
-                transforms.Resize((16, 16)),
+                transforms.Resize((28, 28)),
                 transforms.Normalize((0,), (1,))
                 ])
 

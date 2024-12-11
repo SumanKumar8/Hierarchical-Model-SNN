@@ -24,7 +24,7 @@ def flush_aer(aer,pad_samples=10,all_dump=True):
 
 transform = transforms.Compose([
                 transforms.ToTensor(),
-                transforms.Resize((32, 32)),
+                transforms.Resize((16, 16)),
                 transforms.Normalize((0,), (1,))
                 ])
 
@@ -48,10 +48,10 @@ def getSpikeGenData(loader, num_steps=100, pad_samples=10, path_per_type='', tar
     print(f"Start_index: {strt_idx} | End_idx: {strt_idx + batch}")
     strt_idx += batch
 
-train_spk_path = "SpikeGenData_train_mnist/"
-test_spk_path = "SpikeGenData_test_mnist/"
-train_target_path = "target_train_mnist/"
-test_target_path = "target_test__mnist/"
+train_spk_path = "SpikeGenData_train_svhn/"
+test_spk_path = "SpikeGenData_test_svhn/"
+train_target_path = "target_train_svhn/"
+test_target_path = "target_test_svhn/"
 
 def check_or_create_directory(path):
     if os.path.exists(path):
