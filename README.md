@@ -40,3 +40,16 @@ python main.py
 python results.py
 ```
 
+## Citation
+
+If you find our work useful, please cite our paper.
+```
+@inproceedings{kumar2025hierarchical,
+  title={Hierarchical Model-Based Approach for Concurrent Testing of Neuromorphic Architecture},
+  author={Kumar, Suman and Mishra, Abhishek and Das, Anup and Kandasamy, Nagarajan},
+  booktitle={2025 55th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)},
+  pages={511--523},
+  year={2025},
+  organization={IEEE}
+}
+```
