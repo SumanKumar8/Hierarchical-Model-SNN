@@ -41,7 +41,7 @@ python results.py
 ```
 
 ## Citation
-
+ 
 If you find our work useful, please cite our paper.
 ```
 @inproceedings{kumar2025hierarchical,
